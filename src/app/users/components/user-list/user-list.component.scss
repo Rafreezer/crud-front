@@ -1,0 +1,31 @@
+.row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  div{
+    margin-right: 12px;
+  }
+  div:last-child{
+    margin-right: 0;
+  }
+}
+.table-container
+{
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em;
+}
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
